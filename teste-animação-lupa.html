@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Animação lupa</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script type="text/javascript" src="functions.js"></script>
+</head>
+<body>
+    <div class="container" id="changeColor">
+        <div class="content">
+            <h1 class="titulo">Teste Animação lupa</h1>
+             <div>
+                <input type="search" id="buscar" name="search" class="glass" placeholder="Buscar">
+                <button id="btnExibir" class="btn" onclick="exibirMenssagem()">Exibir</button>
+            </div>
+            
+            <div>
+                <label for="cars">Escolha uma cor</label>
+    
+                <select class="opcoesCores" id="seleCor">
+                    <option class="novaCor" value="novaCor"></option>
+                    <option value="#FF1493">Rosa</option>
+                    <option value="#0000CD">Azul</option>
+                    <option value="#000">Preto</option>
+                </select>
+                <div class="">
+                    <button id="1" class="btnOpcoes" onclick="mudarBotao()">Aplicar</button>
+                    <button class="btnOpcoes" onclick="incluirCor()">Incluir Cor</button>
+                    <button class="btnOpcoes" onclick="setarCor()">Setar Cor</button>
+                    <button class="btnOpcoes" onclick="resetarCor()">Resetar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+</body>
+</html>
